@@ -1,0 +1,32 @@
+body,
+html { 
+  background: url(file:///C:/Users/wasekhan/Desktop/header.jpg) no-repeat center center fixed; 
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+	font-size: 3rem;
+	color: blue;
+}
+.buffer{
+	height: 50px;
+}
+.btn-xl{
+	padding: 1rem 2rem;
+}
+.btn{
+	font-weight: 500;
+	border-radius: 600px;
+	text-transform: uppercase;
+	background-color: black;
+	border-color: yellow;
+}
+.btn:hover{
+	background-color: orange;
+	border-color: orange;
+	border-width: 5px;
+}
